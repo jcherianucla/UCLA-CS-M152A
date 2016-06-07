@@ -1,4 +1,0 @@
-verilog work "../../Downloads/twos_to_sign_mag.v"
-verilog work "../../Downloads/rounding.v"
-verilog work "../../Downloads/count_and_extract.v"
-verilog work "../../Downloads/fp_converter.v"

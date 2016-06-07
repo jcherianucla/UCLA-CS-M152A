@@ -1,1 +1,0 @@
--intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "C:/Users/152/Desktop/floating_point_conversion/fp_converter_TB_isim_beh.exe" -prj "C:/Users/152/Desktop/floating_point_conversion/fp_converter_TB_beh.prj" "work.fp_converter_TB" "work.glbl" 
