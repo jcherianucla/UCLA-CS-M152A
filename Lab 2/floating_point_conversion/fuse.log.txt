@@ -1,0 +1,25 @@
+Running: C:\Xilinx\14.6\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o C:/Users/152/Desktop/floating_point_conversion/fp_converter_TB_isim_beh.exe -prj C:/Users/152/Desktop/floating_point_conversion/fp_converter_TB_beh.prj work.fp_converter_TB work.glbl 
+ISim P.68d (signature 0x7708f090)
+Number of CPUs detected in this system: 2
+Turning on mult-threading, number of parallel sub-compilation jobs: 4 
+Determining compilation order of HDL files
+Analyzing Verilog file "C:/Users/152/Desktop/floating_point_conversion/../../Downloads/twos_to_sign_mag.v" into library work
+Analyzing Verilog file "C:/Users/152/Desktop/floating_point_conversion/../../Downloads/rounding.v" into library work
+Analyzing Verilog file "C:/Users/152/Desktop/floating_point_conversion/../../Downloads/count_and_extract.v" into library work
+Analyzing Verilog file "C:/Users/152/Desktop/floating_point_conversion/../../Downloads/fp_converter.v" into library work
+Analyzing Verilog file "C:/Users/152/Desktop/floating_point_conversion/fp_converter_TB.v" into library work
+Analyzing Verilog file "C:/Xilinx/14.6/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling module twos_to_sign_mag
+Compiling module count_and_extract
+Compiling module rounding
+Compiling module fp_converter
+Compiling module fp_converter_TB
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 5 sub-compilation(s) to finish...
+Compiled 6 Verilog Units
+Built simulation executable C:/Users/152/Desktop/floating_point_conversion/fp_converter_TB_isim_beh.exe
+Fuse Memory Usage: 27304 KB
+Fuse CPU Usage: 545 ms

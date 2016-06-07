@@ -1,0 +1,6 @@
+xst -intstyle ise -ifn "C:/Users/152/Desktop/lab6_group9_combinational_muxed/combinational_gates_muxed.xst" -ofn "C:/Users/152/Desktop/lab6_group9_combinational_muxed/combinational_gates_muxed.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/152/Desktop/combinational_gates/combinational_gates_muxed.ucf -p xc6slx16-csg324-3 combinational_gates_muxed.ngc combinational_gates_muxed.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o combinational_gates_muxed_map.ncd combinational_gates_muxed.ngd combinational_gates_muxed.pcf 
+par -w -intstyle ise -ol high -mt off combinational_gates_muxed_map.ncd combinational_gates_muxed.ncd combinational_gates_muxed.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml combinational_gates_muxed.twx combinational_gates_muxed.ncd -o combinational_gates_muxed.twr combinational_gates_muxed.pcf 
+bitgen -intstyle ise -f combinational_gates_muxed.ut combinational_gates_muxed.ncd 

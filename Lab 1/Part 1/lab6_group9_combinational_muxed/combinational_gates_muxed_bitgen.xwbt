@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\152\Desktop\lab6_group9_combinational_muxed\combinational_gates_muxed.ncd
+OUTFILE=C:\Users\152\Desktop\lab6_group9_combinational_muxed\combinational_gates_muxed.bit
+FAMILY=Spartan6
+PART=xc6slx16-3csg324
+WORKINGDIR=C:\Users\152\Desktop\lab6_group9_combinational_muxed
+LICENSE=ISE
+USER_INFO=203015155_203016297_210565169_105

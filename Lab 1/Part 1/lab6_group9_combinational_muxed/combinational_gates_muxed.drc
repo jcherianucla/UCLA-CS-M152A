@@ -1,0 +1,8 @@
+Release 14.6 Drc P.68d (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Thu Apr 07 10:56:09 2016
+
+drc -z combinational_gates_muxed.ncd combinational_gates_muxed.pcf
+
+DRC detected 0 errors and 0 warnings.
